@@ -40,7 +40,7 @@ function ImageUpload() {
       onChange={handleFileChange} 
       multiple 
       id="fileinput"
-      className="text-gray-100" />
+      className="text-gray-100 p-1" />
 
       
       <button
@@ -49,7 +49,7 @@ function ImageUpload() {
         className={`${
             loading
               ? "bg-blue-400 cursor-not-allowed"
-              : "bg-blue-500 hover:bg-blue-600"
+              : "bg-blue-500 hover:bg-blue-600 p-1"
           } text-white font-medium px-5 py-2 rounded-lg shadow-md transition-all`}
         >
         {loading ? 
