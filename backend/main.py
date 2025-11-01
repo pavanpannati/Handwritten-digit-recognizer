@@ -11,9 +11,9 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # or specify your React URL e.g. ["http://localhost:3000"]
+    allow_origins=["https://handwritten-digit-recognizer-1-rjac.onrender.com/"],  # or specify your React URL e.g. ["http://localhost:3000"]
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["POST"],
     allow_headers=["*"],
 )
 
