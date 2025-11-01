@@ -38,7 +38,7 @@ function ImageUpload() {
       <input type="file" 
       accept="image/*" 
       onChange={handleFileChange} 
-      capture="environment"
+      multiple 
       id="fileinput"
       className="text-gray-100" />
 
