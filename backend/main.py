@@ -17,7 +17,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.post("/predict")
+@app.post("/predict/")
 async def predict(data:UploadFile = File(...)):
     try:
         upload_dir = "uploaded_images"
