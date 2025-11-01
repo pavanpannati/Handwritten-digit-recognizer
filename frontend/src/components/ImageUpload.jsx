@@ -19,7 +19,7 @@ function ImageUpload() {
 
     try {
       setLoading(true);
-      const res = await axios.post(`${import.meta.env.VITE_API_URL}`, formData, {
+      const res = await axios.post("https://pannatipavan-handwritten-digit-recognizer.hf.space/", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
 
