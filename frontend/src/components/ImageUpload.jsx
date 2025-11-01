@@ -55,7 +55,7 @@ function ImageUpload() {
         {loading ? 
         < div className="flex items-center gap-2">
           <Loader/>
-        "Predicting..."
+        Predicting...
         </div > : "Upload & Predict"}
       </button>
       {image && (
